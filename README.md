@@ -39,11 +39,11 @@ cut, cuts 20/24/28/30/34/38/42 (full 46-read archive):
 
 | version | mean | median | recent-4 | practice window (cut34) |
 |---------|------|--------|----------|-------------------------|
-| v2 (live: −31.4, rank 13) | −34.80 | −32.56 | −32.05 | −31.38 |
-| **v3** | **−34.29** | **−31.92** | **−31.30** | **−30.86** |
+| v2 (live: −31.4, rank 13) | −34.80 | −32.56 | −32.01 | −31.38 |
+| **v3** | **−34.42** | **−31.87** | **−31.37** | **−30.78** |
 
 Live practice board at submission time: rank 1 −29.0, rank 10 −30.9,
-rank 20 −31.7. v3's practice-window backtest (−30.86) sits just
+rank 20 −31.7. v3's practice-window backtest (−30.78) sits just
 inside the top 10.
 
 ## What was tried and dropped

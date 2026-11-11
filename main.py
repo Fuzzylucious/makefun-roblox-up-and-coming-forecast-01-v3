@@ -54,10 +54,12 @@ OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 # Tunables (calibrated on the archive by multi-window holdout scoring;
 # fit on snapshots 1..cut, score on the reads in the 72 h after the cut,
-# cuts 20/24/28/30/34/38/42. Stdlib v3: mean -34.29, median -31.92,
-# recent-4 -31.30, practice window (cut34) -30.86; v2 on the same
-# windows: mean -34.80, median -32.56, recent-4 -32.05, cut34 -31.38.
-# Live practice board: v2 -31.4 at rank 13; rank 10 is -30.9, rank 1 -29.0.)
+# cuts 20/24/28/30/34/38/42. Stdlib v3 (1500 sims): cut20 -37.37,
+# cut24 -41.76, cut28 -36.35, cut30 -31.87, cut34 -30.78, cut38 -31.00,
+# cut42 -31.84; mean -34.42, median -31.87, recent-4 -31.37. v2 stdlib
+# on the same windows: mean -34.80, median -32.56, recent-4 -32.01,
+# cut34 -31.38. Live practice board: v2 -31.4 at rank 13; rank 10 is
+# -30.9, rank 1 -29.0.)
 SEED = 20261113
 N_SIMS = 1500           # Monte Carlo paths
 DRIFT_WINDOW_HOURS = 96.0
